@@ -32,7 +32,7 @@ Version: 3.5.1 Timestamp: Tue Jul 22 18:58:56 EDT 2014
     overflow: hidden;
     position: relative;
 
-    border: 1px solid #aaa;
+    border: 0px;
     white-space: nowrap;
     line-height: 26px;
     color: #444;
@@ -146,7 +146,7 @@ html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
 
     background: #fff;
     color: #000;
-    border: 1px solid #aaa;
+    border: 0px ;
     border-top: 0;
 
     border-radius: 0 0 4px 4px;
@@ -287,7 +287,7 @@ html[dir="rtl"] .select2-search input {
 
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-    border: 1px solid #5897fb;
+    border: 0px ;
     outline: none;
 
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
@@ -312,7 +312,7 @@ html[dir="rtl"] .select2-search input {
 
 .select2-dropdown-open.select2-drop-above .select2-choice,
 .select2-dropdown-open.select2-drop-above .select2-choices {
-    border: 1px solid #5897fb;
+    border: 0px ;
     border-top-color: transparent;
 
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.5, #eee));
@@ -492,7 +492,7 @@ disabled look for disabled choices in the results dropdown
     padding: 0 5px 0 0;
     position: relative;
 
-    border: 1px solid #aaa;
+    border: 0px ;
     cursor: text;
     overflow: hidden;
 
@@ -566,7 +566,7 @@ html[dir="rtl"] .select2-container-multi .select2-choices li
     line-height: 13px;
     color: #333;
     cursor: default;
-    border: 1px solid #aaaaaa;
+    border: 0px solid #aaaaaa;
 
     border-radius: 3px;
 
@@ -637,7 +637,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
 .select2-container-multi.select2-container-disabled .select2-choices {
     background-color: #f4f4f4;
     background-image: none;
-    border: 1px solid #ddd;
+    border: 0px ;
     cursor: default;
 }
 
