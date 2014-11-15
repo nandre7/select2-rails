@@ -493,9 +493,22 @@ disabled look for disabled choices in the results dropdown
 /* multiselect */
 
 .select2-container-multi .select2-choices {
-     background:#ffffff;
+  height: auto !important;
+    height: 1%;
+    margin: 0;
+    padding: 0 5px 0 0;
+    position: relative;
+
+
+   background:#ffffff;
       border:0px solid #cccccc;
+    cursor: text;
+    overflow: hidden;
+
+    background-color: #fff;
+    
 }
+   
 
 html[dir="rtl"] .select2-container-multi .select2-choices {
     padding: 0 0 0 5px;
