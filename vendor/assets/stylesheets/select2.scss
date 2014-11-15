@@ -263,13 +263,21 @@ html[dir="rtl"] .select2-container .select2-choice .select2-arrow b {
     -webkit-box-shadow: none;
             box-shadow: none;
 
-    
+    background: #fff image-url('select2.png') no-repeat 100% -22px;
+    background: image-url('select2.png') no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: image-url('select2.png') no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: image-url('select2.png') no-repeat 100% -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: image-url('select2.png') no-repeat 100% -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
 }
 
 html[dir="rtl"] .select2-search input {
     padding: 4px 5px 4px 20px;
 
-    
+    background: #fff image-url('select2.png') no-repeat -37px -22px;
+    background: image-url('select2.png') no-repeat -37px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: image-url('select2.png') no-repeat -37px -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: image-url('select2.png') no-repeat -37px -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: image-url('select2.png') no-repeat -37px -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
 }
 
 .select2-drop.select2-drop-above .select2-search input {
@@ -490,7 +498,7 @@ disabled look for disabled choices in the results dropdown
     margin: 0;
     padding: 0 5px 0 0;
     position: relative;
-
+    background: #3875d7;
     border: 0px ;
     cursor: text;
     overflow: hidden;
